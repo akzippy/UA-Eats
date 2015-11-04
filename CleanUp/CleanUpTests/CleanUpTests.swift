@@ -1,15 +1,15 @@
 //
-//  project2Tests.swift
-//  project2Tests
+//  CleanUpTests.swift
+//  CleanUpTests
 //
-//  Created by Cameron Reilly on 10/14/15.
+//  Created by Cameron Reilly on 11/4/15.
 //  Copyright © 2015 Cameron Reilly. All rights reserved.
 //
 
 import XCTest
-@testable import project2
+@testable import CleanUp
 
-class project2Tests: XCTestCase {
+class CleanUpTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

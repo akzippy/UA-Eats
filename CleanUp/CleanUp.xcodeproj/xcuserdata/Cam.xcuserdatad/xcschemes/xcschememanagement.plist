@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>project2.xcscheme</key>
+		<key>CleanUp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>32FB68921BCEB5B1006D6161</key>
+		<key>32F1EFE71BEA925E0016AA93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32FB68A61BCEB5B1006D6161</key>
+		<key>32F1EFFF1BEA925E0016AA93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32FB68B11BCEB5B1006D6161</key>
+		<key>32F1F00A1BEA925E0016AA93</key>
 		<dict>
 			<key>primary</key>
 			<true/>

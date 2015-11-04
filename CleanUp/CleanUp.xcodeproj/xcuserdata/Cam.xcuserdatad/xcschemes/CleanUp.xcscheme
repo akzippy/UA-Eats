@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32FB68921BCEB5B1006D6161"
-               BuildableName = "project2.app"
-               BlueprintName = "project2"
-               ReferencedContainer = "container:project2.xcodeproj">
+               BlueprintIdentifier = "32F1EFE71BEA925E0016AA93"
+               BuildableName = "CleanUp.app"
+               BlueprintName = "CleanUp"
+               ReferencedContainer = "container:CleanUp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32FB68A61BCEB5B1006D6161"
-               BuildableName = "project2Tests.xctest"
-               BlueprintName = "project2Tests"
-               ReferencedContainer = "container:project2.xcodeproj">
+               BlueprintIdentifier = "32F1EFFF1BEA925E0016AA93"
+               BuildableName = "CleanUpTests.xctest"
+               BlueprintName = "CleanUpTests"
+               ReferencedContainer = "container:CleanUp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32FB68B11BCEB5B1006D6161"
-               BuildableName = "project2UITests.xctest"
-               BlueprintName = "project2UITests"
-               ReferencedContainer = "container:project2.xcodeproj">
+               BlueprintIdentifier = "32F1F00A1BEA925E0016AA93"
+               BuildableName = "CleanUpUITests.xctest"
+               BlueprintName = "CleanUpUITests"
+               ReferencedContainer = "container:CleanUp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32FB68921BCEB5B1006D6161"
-            BuildableName = "project2.app"
-            BlueprintName = "project2"
-            ReferencedContainer = "container:project2.xcodeproj">
+            BlueprintIdentifier = "32F1EFE71BEA925E0016AA93"
+            BuildableName = "CleanUp.app"
+            BlueprintName = "CleanUp"
+            ReferencedContainer = "container:CleanUp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32FB68921BCEB5B1006D6161"
-            BuildableName = "project2.app"
-            BlueprintName = "project2"
-            ReferencedContainer = "container:project2.xcodeproj">
+            BlueprintIdentifier = "32F1EFE71BEA925E0016AA93"
+            BuildableName = "CleanUp.app"
+            BlueprintName = "CleanUp"
+            ReferencedContainer = "container:CleanUp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32FB68921BCEB5B1006D6161"
-            BuildableName = "project2.app"
-            BlueprintName = "project2"
-            ReferencedContainer = "container:project2.xcodeproj">
+            BlueprintIdentifier = "32F1EFE71BEA925E0016AA93"
+            BuildableName = "CleanUp.app"
+            BlueprintName = "CleanUp"
+            ReferencedContainer = "container:CleanUp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

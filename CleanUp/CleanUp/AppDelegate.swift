@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  project2
+//  CleanUp
 //
-//  Created by Cameron Reilly on 10/14/15.
+//  Created by Cameron Reilly on 11/4/15.
 //  Copyright © 2015 Cameron Reilly. All rights reserved.
 //
 
