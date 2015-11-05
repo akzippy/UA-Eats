@@ -494,6 +494,7 @@
 				32F1F0161BEA925E0016AA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F1F0171BEA925E0016AA93 /* Build configuration list for PBXNativeTarget "CleanUpTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +503,7 @@
 				32F1F0191BEA925E0016AA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F1F01A1BEA925E0016AA93 /* Build configuration list for PBXNativeTarget "CleanUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +512,7 @@
 				32F1F01C1BEA925E0016AA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
