@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="Map" id="Vtc-SA-Vya"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="Map" selectedImage="second" id="Vtc-SA-Vya"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRt-CR-Op2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
