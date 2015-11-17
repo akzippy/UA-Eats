@@ -8,11 +8,35 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDataSource , UITableViewDelegate{
 
+    @IBOutlet weak var swipesTable: UITableView?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        swipesTable?.dataSource = self
+        swipesTable?.delegate = self
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 30
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->   UITableViewCell {
+        let cell = UITableViewCell()
+        let label = UILabel(frame: CGRect(x:0, y:0, width:200, height:50))
+        label.text = "Hello Man"
+        //cell.textLabel?.textAlignment = .Right
+        //cell.detailTextLabel?.textAlignment = .Right
+        cell.addSubview(label)
+        return cell
+    }
+    
+    
+    // UITableViewDelegate Functions
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 50
     }
 
     override func didReceiveMemoryWarning() {
