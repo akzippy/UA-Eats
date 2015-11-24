@@ -2,142 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>robs</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Rob&apos;s Dining Hall</string>
-		<key>hours</key>
-		<string>12:00-3:00</string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>unionMarket</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Union Market</string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>trackside</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Trackside Grill</string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>zeesRobs</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Zee&apos;s </string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>zeesExchange</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Zee&apos;s </string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>zeesQuaker</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Zee&apos;s </string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>zeesPolsky</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Zee&apos;s </string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
-	<key>freshens</key>
-	<dict>
-		<key>coodinateX</key>
-		<integer>0</integer>
-		<key>coodinateY</key>
-		<integer>0</integer>
-		<key>site</key>
-		<string></string>
-		<key>name</key>
-		<string>Freshens</string>
-		<key>hours</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-		<key>swipes</key>
-		<true/>
-	</dict>
 	<key>burgerFi</key>
 	<dict>
 		<key>coodinateX</key>
@@ -254,8 +118,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>insomnia</key>
 	<dict>
@@ -271,8 +133,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>marcos</key>
 	<dict>
@@ -288,8 +148,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>zubs</key>
 	<dict>
@@ -305,8 +163,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>nuevo</key>
 	<dict>
@@ -322,8 +178,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>nunzios</key>
 	<dict>
@@ -339,8 +193,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>papaJohns</key>
 	<dict>
@@ -356,8 +208,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>pennStationHowe</key>
 	<dict>
@@ -373,8 +223,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>pennStationExchange</key>
 	<dict>
@@ -390,8 +238,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>pitaPit</key>
 	<dict>
@@ -407,8 +253,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>pizzaFire</key>
 	<dict>
@@ -424,8 +268,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>pizzaHut</key>
 	<dict>
@@ -441,8 +283,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>subwayMain</key>
 	<dict>
@@ -458,8 +298,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>subwayUnion</key>
 	<dict>
@@ -475,8 +313,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>subwayExchange</key>
 	<dict>
@@ -492,8 +328,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>lockview</key>
 	<dict>
@@ -509,8 +343,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>aladdins</key>
 	<dict>
@@ -526,8 +358,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>barleyHouse</key>
 	<dict>
@@ -543,8 +373,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>bw3</key>
 	<dict>
@@ -560,8 +388,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>chipotleHowe</key>
 	<dict>
@@ -577,8 +403,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>chipotleMarket</key>
 	<dict>
@@ -594,8 +418,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>chickfila</key>
 	<dict>
@@ -611,8 +433,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>cilantro</key>
 	<dict>
@@ -628,8 +448,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>cvs</key>
 	<dict>
@@ -645,8 +463,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>daves</key>
 	<dict>
@@ -662,8 +478,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>eatnpark</key>
 	<dict>
@@ -679,8 +493,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>fiveGuysHowe</key>
 	<dict>
@@ -696,8 +508,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>fiveGuysMedina</key>
 	<dict>
@@ -713,8 +523,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>giantEagleHowe</key>
 	<dict>
@@ -730,8 +538,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>giantEagleWaterloo</key>
 	<dict>
@@ -747,8 +553,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>giantEagleMD</key>
 	<dict>
@@ -764,8 +568,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>trecasos</key>
 	<dict>
@@ -781,8 +583,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>spaghettiWH</key>
 	<dict>
@@ -798,8 +598,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>starz</key>
 	<dict>
@@ -815,8 +613,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>tacoBell</key>
 	<dict>
@@ -832,8 +628,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>wednys</key>
 	<dict>
@@ -849,8 +643,6 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 </dict>
 </plist>

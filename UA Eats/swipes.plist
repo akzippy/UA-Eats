@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>robs</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Rob&apos;s Dining Hall</string>
+		<key>hours</key>
+		<string>12:00-3:00</string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>unionMarket</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Union Market</string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>trackside</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Trackside Grill</string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>zeesRobs</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Zee&apos;s </string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>zeesExchange</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Zee&apos;s </string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>zeesQuaker</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Zee&apos;s </string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>zeesPolsky</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Zee&apos;s </string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+	<key>freshens</key>
+	<dict>
+		<key>coodinateX</key>
+		<integer>0</integer>
+		<key>coodinateY</key>
+		<integer>0</integer>
+		<key>site</key>
+		<string></string>
+		<key>name</key>
+		<string>Freshens</string>
+		<key>hours</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
