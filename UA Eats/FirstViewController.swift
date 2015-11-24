@@ -24,10 +24,10 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->   UITableViewCell {
         let cell = UITableViewCell()
-        let label = UILabel(frame: CGRect(x:0, y:0, width:200, height:50))
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
         label.text = "Hello Man"
-        //cell.textLabel?.textAlignment = .Right
-        //cell.detailTextLabel?.textAlignment = .Right
+        label.textAlignment = .Center
         cell.addSubview(label)
         return cell
     }
