@@ -4,6 +4,8 @@
 <dict>
 	<key>burgerFi</key>
 	<dict>
+		<key>address</key>
+		<string>2002 Portage Tr</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -16,11 +18,11 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>burgerKingMarket</key>
 	<dict>
+		<key>address</key>
+		<string>671 E Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -33,11 +35,11 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>burgerKingHowe</key>
 	<dict>
+		<key>290 Howe Ave</key>
+		<string></string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -50,11 +52,11 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>crave</key>
 	<dict>
+		<key>address</key>
+		<string>57 E Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -67,11 +69,11 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>euroGyro</key>
 	<dict>
+		<key>address</key>
+		<string>444 E Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -84,11 +86,11 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>gioninos</key>
 	<dict>
+		<key>address</key>
+		<string>1522 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -101,11 +103,11 @@
 		<string></string>
 		<key>description</key>
 		<string></string>
-		<key>swipes</key>
-		<false/>
 	</dict>
 	<key>hanini</key>
 	<dict>
+		<key>address</key>
+		<string>390 Brown St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -121,6 +123,8 @@
 	</dict>
 	<key>insomnia</key>
 	<dict>
+		<key>address</key>
+		<string>367 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -136,6 +140,8 @@
 	</dict>
 	<key>marcos</key>
 	<dict>
+		<key>address</key>
+		<string>9 N Hawkins Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -151,6 +157,8 @@
 	</dict>
 	<key>zubs</key>
 	<dict>
+		<key>address</key>
+		<string>812 W Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -166,6 +174,8 @@
 	</dict>
 	<key>nuevo</key>
 	<dict>
+		<key>address</key>
+		<string>54 E Mill St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -181,6 +191,8 @@
 	</dict>
 	<key>nunzios</key>
 	<dict>
+		<key>address</key>
+		<string>625 Grant St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -196,6 +208,8 @@
 	</dict>
 	<key>papaJohns</key>
 	<dict>
+		<key>address</key>
+		<string>701 E Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -211,6 +225,8 @@
 	</dict>
 	<key>pennStationHowe</key>
 	<dict>
+		<key>address</key>
+		<string>753 Howe Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -226,6 +242,8 @@
 	</dict>
 	<key>pennStationExchange</key>
 	<dict>
+		<key>address</key>
+		<string>274 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -241,6 +259,8 @@
 	</dict>
 	<key>pitaPit</key>
 	<dict>
+		<key>address</key>
+		<string>325 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -256,6 +276,8 @@
 	</dict>
 	<key>pizzaFire</key>
 	<dict>
+		<key>address</key>
+		<string>22 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -271,6 +293,8 @@
 	</dict>
 	<key>pizzaHut</key>
 	<dict>
+		<key>address</key>
+		<string>396 E Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -286,6 +310,8 @@
 	</dict>
 	<key>subwayMain</key>
 	<dict>
+		<key>address</key>
+		<string>348 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -301,6 +327,8 @@
 	</dict>
 	<key>subwayUnion</key>
 	<dict>
+		<key>address</key>
+		<string>303 Carroll Street</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -316,6 +344,8 @@
 	</dict>
 	<key>subwayExchange</key>
 	<dict>
+		<key>address</key>
+		<string>484 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -331,6 +361,8 @@
 	</dict>
 	<key>lockview</key>
 	<dict>
+		<key>address</key>
+		<string>207 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -346,6 +378,8 @@
 	</dict>
 	<key>aladdins</key>
 	<dict>
+		<key>address</key>
+		<string>782 W Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -361,6 +395,8 @@
 	</dict>
 	<key>barleyHouse</key>
 	<dict>
+		<key>address</key>
+		<string>222 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -376,6 +412,8 @@
 	</dict>
 	<key>bw3</key>
 	<dict>
+		<key>address</key>
+		<string>456 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -391,6 +429,8 @@
 	</dict>
 	<key>chipotleHowe</key>
 	<dict>
+		<key>address</key>
+		<string>371 Howe Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -406,6 +446,8 @@
 	</dict>
 	<key>chipotleMarket</key>
 	<dict>
+		<key>address</key>
+		<string>825 W Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -421,6 +463,8 @@
 	</dict>
 	<key>chickfila</key>
 	<dict>
+		<key>address</key>
+		<string>420 Howe Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -436,6 +480,8 @@
 	</dict>
 	<key>cilantro</key>
 	<dict>
+		<key>address</key>
+		<string>326 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -451,6 +497,8 @@
 	</dict>
 	<key>cvs</key>
 	<dict>
+		<key>address</key>
+		<string>590 E Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -466,6 +514,8 @@
 	</dict>
 	<key>daves</key>
 	<dict>
+		<key>address</key>
+		<string>871 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -481,6 +531,8 @@
 	</dict>
 	<key>eatnpark</key>
 	<dict>
+		<key>address</key>
+		<string>200 Howe Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -496,6 +548,8 @@
 	</dict>
 	<key>fiveGuysHowe</key>
 	<dict>
+		<key>address</key>
+		<string>753 Howe Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -511,6 +565,8 @@
 	</dict>
 	<key>fiveGuysMedina</key>
 	<dict>
+		<key>address</key>
+		<string>3863 Medina Rd</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -526,6 +582,8 @@
 	</dict>
 	<key>giantEagleHowe</key>
 	<dict>
+		<key>address</key>
+		<string>230 Howe Ave</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -541,6 +599,8 @@
 	</dict>
 	<key>giantEagleWaterloo</key>
 	<dict>
+		<key>address</key>
+		<string>484 Waterloo Rd</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -556,6 +616,8 @@
 	</dict>
 	<key>giantEagleMD</key>
 	<dict>
+		<key>address</key>
+		<string>2687 State Rd</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -571,6 +633,8 @@
 	</dict>
 	<key>trecasos</key>
 	<dict>
+		<key>address</key>
+		<string>780 W Market St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -586,6 +650,8 @@
 	</dict>
 	<key>spaghettiWH</key>
 	<dict>
+		<key>address</key>
+		<string>510 S Main St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -601,6 +667,8 @@
 	</dict>
 	<key>starz</key>
 	<dict>
+		<key>address</key>
+		<string>300 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -616,6 +684,8 @@
 	</dict>
 	<key>tacoBell</key>
 	<dict>
+		<key>address</key>
+		<string>414 E Exchange St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
@@ -631,6 +701,8 @@
 	</dict>
 	<key>wednys</key>
 	<dict>
+		<key>address</key>
+		<string>623 E Marker St</string>
 		<key>coodinateX</key>
 		<integer>0</integer>
 		<key>coodinateY</key>
