@@ -17,10 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uv8-Qa-YKm">
-                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Swipes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gX-E8-wbM">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
                                 <color key="backgroundColor" red="0.3955432599" green="0.74026091699999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,6 +28,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uv8-Qa-YKm">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -39,8 +39,7 @@
                             <constraint firstItem="0gX-E8-wbM" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="Avz-lL-GSO"/>
                             <constraint firstItem="uv8-Qa-YKm" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="65" id="DH8-ee-gfv"/>
                             <constraint firstItem="0gX-E8-wbM" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="V0Q-RI-91F"/>
-                            <constraint firstAttribute="trailing" secondItem="uv8-Qa-YKm" secondAttribute="trailing" constant="10" id="dW9-sX-hHq"/>
-                            <constraint firstItem="uv8-Qa-YKm" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="gyJ-Sz-DC0"/>
+                            <constraint firstItem="uv8-Qa-YKm" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="ouI-xY-nru"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Swipes" image="first" id="acW-dT-cKf"/>

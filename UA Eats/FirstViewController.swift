@@ -11,11 +11,21 @@ import UIKit
 class FirstViewController: UIViewController, UITableViewDataSource , UITableViewDelegate{
 
     @IBOutlet weak var swipesTable: UITableView?
+    var data: Dictionary<String, Dictionary<String, String>>?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         swipesTable?.dataSource = self
         swipesTable?.delegate = self
+         data = {
+            guard let path = NSBundle.mainBundle().pathForResource("swipes", ofType: "plist") else {
+                fatalError("Invalid path for plist")
+            }
+            print("\(path)")
+            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
+            }()
+        print(data)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -26,8 +36,9 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         let cell = UITableViewCell()
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
-        label.text = "Hello Man"
+        //label.text = data?[2]!["name"]//"Hello Man"
         label.textAlignment = .Center
+        swipesTable?.separatorInset.right = 200
         cell.addSubview(label)
         return cell
     }
