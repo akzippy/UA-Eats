@@ -11,7 +11,8 @@ import UIKit
 class FirstViewController: UIViewController, UITableViewDataSource , UITableViewDelegate{
 
     @IBOutlet weak var swipesTable: UITableView?
-    var data: Dictionary<String, Dictionary<String, String>>?
+    var data: Dictionary<String, Dictionary<String, NSObject>>?
+    var count = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,24 +20,30 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         swipesTable?.dataSource = self
         swipesTable?.delegate = self
          data = {
-            guard let path = NSBundle.mainBundle().pathForResource("swipes", ofType: "plist") else {
+            guard let path = NSBundle.mainBundle().pathForResource("dining", ofType: "plist") else {
                 fatalError("Invalid path for plist")
             }
-            print("\(path)")
-            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
+            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, NSObject>>
             }()
-        print(data)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 30
+        return (data?.count)!
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->   UITableViewCell {
         let cell = UITableViewCell()
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
-        //label.text = data?[2]!["name"]//"Hello Man"
+        let index = data?.startIndex.advancedBy(count)
+        var str = data?.keys[index!]
+        label.text = str //"Hello Man"
+        if count > (data?.count)! - 2{
+            count = 0
+        }
+        else{
+            count++
+        }
         label.textAlignment = .Center
         swipesTable?.separatorInset.right = 200
         cell.addSubview(label)
