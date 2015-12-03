@@ -20,7 +20,7 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         swipesTable?.dataSource = self
         swipesTable?.delegate = self
          data = {
-            guard let path = NSBundle.mainBundle().pathForResource("dining", ofType: "plist") else {
+            guard let path = NSBundle.mainBundle().pathForResource("swipes", ofType: "plist") else {
                 fatalError("Invalid path for plist")
             }
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
