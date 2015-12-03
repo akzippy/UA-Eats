@@ -41,7 +41,7 @@
                             <constraint firstItem="uv8-Qa-YKm" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="ouI-xY-nru"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Swipes" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Swipes" image="card" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="swipesTable" destination="uv8-Qa-YKm" id="VPJ-dY-v49"/>
                     </connections>
@@ -63,7 +63,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="Map" selectedImage="second" id="Vtc-SA-Vya"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" selectedImage="map" id="Vtc-SA-Vya"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRt-CR-Op2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,7 +103,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dining Dollars" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Dining Dollars" image="dollar" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,8 +131,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Map" width="30" height="28"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="card" width="36" height="36"/>
+        <image name="dollar" width="24" height="24"/>
+        <image name="map" width="89" height="89"/>
     </resources>
 </document>
