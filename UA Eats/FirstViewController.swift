@@ -20,7 +20,7 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         swipesTable?.dataSource = self
         swipesTable?.delegate = self
          data = {
-            guard let path = NSBundle.mainBundle().pathForResource("swipes", ofType: "plist") else {
+            guard let path = NSBundle.mainBundle().pathForResource("dining", ofType: "plist") else {
                 fatalError("Invalid path for plist")
             }
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
@@ -36,8 +36,7 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
         let index = data?.startIndex.advancedBy(count)
-        //var str = data?.keys[index!]
-        var str = data?[index!]["name"]
+        let str = data?[(data?.keys[index!])!]?["name"]
 
         label.text = str //"Hello Man"
         if count > (data?.count)! - 2{
@@ -47,7 +46,7 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
             count++
         }
         label.textAlignment = .Center
-        swipesTable?.separatorInset.right = 200
+        //swipesTable?.separatorInset.right = 200
         cell.addSubview(label)
         return cell
     }
@@ -57,6 +56,12 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 50
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //CODE TO BE RUN ON CELL TOUCH
+        let temp = indexPath.indexAtPosition(1)
+        print(data?[(data?.keys[(data?.startIndex.advancedBy(temp))!])!]?["address"])
     }
 
     override func didReceiveMemoryWarning() {
