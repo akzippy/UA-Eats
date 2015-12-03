@@ -30,7 +30,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Burger King</string>
+		<string>Burger King (Market St)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -47,7 +47,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Burger King</string>
+		<string>Burger King (Howe Ave)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -234,7 +234,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Penn Station</string>
+		<string>Penn Station (Howe Ave)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -251,7 +251,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Penn Station</string>
+		<string>Penn Station (Exchange St)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -319,7 +319,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Subway</string>
+		<string>Subway (Main St)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -336,7 +336,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Subway</string>
+		<string>Subway (Union)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -353,7 +353,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Subway</string>
+		<string>Subway (Exchange St)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -557,7 +557,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Five Guys Burgers &amp; Fries</string>
+		<string>Five Guys Burgers &amp; Fries (Howe Ave)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -574,7 +574,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Five Guys Burgers &amp; Fries</string>
+		<string>Five Guys Burgers &amp; Fries (Medina Rd)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -591,7 +591,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Giant Eagle</string>
+		<string>Giant Eagle (Howe Ave)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
@@ -608,7 +608,7 @@
 		<key>site</key>
 		<string></string>
 		<key>name</key>
-		<string>Giant Eagle</string>
+		<string>Giant Eagle (Waterloo)</string>
 		<key>hours</key>
 		<string></string>
 		<key>description</key>
