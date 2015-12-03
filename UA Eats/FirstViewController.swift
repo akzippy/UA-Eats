@@ -11,7 +11,7 @@ import UIKit
 class FirstViewController: UIViewController, UITableViewDataSource , UITableViewDelegate{
 
     @IBOutlet weak var swipesTable: UITableView?
-    var data: Dictionary<String, Dictionary<String, NSObject>>?
+    var data: Dictionary<String, Dictionary<String, String>>?
     var count = 0
     
     override func viewDidLoad() {
@@ -20,10 +20,10 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         swipesTable?.dataSource = self
         swipesTable?.delegate = self
          data = {
-            guard let path = NSBundle.mainBundle().pathForResource("dining", ofType: "plist") else {
+            guard let path = NSBundle.mainBundle().pathForResource("swipes", ofType: "plist") else {
                 fatalError("Invalid path for plist")
             }
-            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, NSObject>>
+            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
             }()
     }
     
@@ -36,7 +36,9 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
         let index = data?.startIndex.advancedBy(count)
-        var str = data?.keys[index!]
+        //var str = data?.keys[index!]
+        var str = data?[index!]["name"]
+
         label.text = str //"Hello Man"
         if count > (data?.count)! - 2{
             count = 0

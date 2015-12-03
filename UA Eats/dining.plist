@@ -7,9 +7,9 @@
 		<key>address</key>
 		<string>2002 Portage Tr</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -24,9 +24,9 @@
 		<key>address</key>
 		<string>671 E Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -41,9 +41,9 @@
 		<key>290 Howe Ave</key>
 		<string></string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -58,9 +58,9 @@
 		<key>address</key>
 		<string>57 E Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -75,9 +75,9 @@
 		<key>address</key>
 		<string>444 E Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -92,9 +92,9 @@
 		<key>address</key>
 		<string>1522 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -109,9 +109,9 @@
 		<key>address</key>
 		<string>390 Brown St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -126,9 +126,9 @@
 		<key>address</key>
 		<string>367 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -143,9 +143,9 @@
 		<key>address</key>
 		<string>9 N Hawkins Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -160,9 +160,9 @@
 		<key>address</key>
 		<string>812 W Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -177,9 +177,9 @@
 		<key>address</key>
 		<string>54 E Mill St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -194,9 +194,9 @@
 		<key>address</key>
 		<string>625 Grant St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -211,9 +211,9 @@
 		<key>address</key>
 		<string>701 E Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -228,9 +228,9 @@
 		<key>address</key>
 		<string>753 Howe Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -245,9 +245,9 @@
 		<key>address</key>
 		<string>274 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -262,9 +262,9 @@
 		<key>address</key>
 		<string>325 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -279,9 +279,9 @@
 		<key>address</key>
 		<string>22 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -296,9 +296,9 @@
 		<key>address</key>
 		<string>396 E Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -313,9 +313,9 @@
 		<key>address</key>
 		<string>348 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -330,9 +330,9 @@
 		<key>address</key>
 		<string>303 Carroll Street</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -347,9 +347,9 @@
 		<key>address</key>
 		<string>484 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -364,9 +364,9 @@
 		<key>address</key>
 		<string>207 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -381,9 +381,9 @@
 		<key>address</key>
 		<string>782 W Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -398,9 +398,9 @@
 		<key>address</key>
 		<string>222 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -415,9 +415,9 @@
 		<key>address</key>
 		<string>456 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -432,9 +432,9 @@
 		<key>address</key>
 		<string>371 Howe Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -449,9 +449,9 @@
 		<key>address</key>
 		<string>825 W Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -466,9 +466,9 @@
 		<key>address</key>
 		<string>420 Howe Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -483,9 +483,9 @@
 		<key>address</key>
 		<string>326 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -500,9 +500,9 @@
 		<key>address</key>
 		<string>590 E Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -517,9 +517,9 @@
 		<key>address</key>
 		<string>871 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -534,9 +534,9 @@
 		<key>address</key>
 		<string>200 Howe Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -551,9 +551,9 @@
 		<key>address</key>
 		<string>753 Howe Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -568,9 +568,9 @@
 		<key>address</key>
 		<string>3863 Medina Rd</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -585,9 +585,9 @@
 		<key>address</key>
 		<string>230 Howe Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -602,9 +602,9 @@
 		<key>address</key>
 		<string>484 Waterloo Rd</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -619,9 +619,9 @@
 		<key>address</key>
 		<string>2687 State Rd</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -636,9 +636,9 @@
 		<key>address</key>
 		<string>780 W Market St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -653,9 +653,9 @@
 		<key>address</key>
 		<string>510 S Main St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -670,9 +670,9 @@
 		<key>address</key>
 		<string>300 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -687,9 +687,9 @@
 		<key>address</key>
 		<string>414 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -704,9 +704,9 @@
 		<key>address</key>
 		<string>623 E Marker St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>

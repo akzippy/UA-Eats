@@ -7,9 +7,9 @@
 		<key>address</key>
 		<string>248 E Buchtel Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -24,9 +24,9 @@
 		<key>address</key>
 		<string>303 Carroll Street</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -41,9 +41,9 @@
 		<key>address</key>
 		<string>135 S Broadway St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -58,9 +58,9 @@
 		<key>address</key>
 		<string>248 E Buchtel Ave</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -75,9 +75,9 @@
 		<key>address</key>
 		<string>180 E Exchange St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -92,9 +92,9 @@
 		<key>address</key>
 		<string>135 S Broadway St</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
@@ -109,9 +109,9 @@
 		<key>address</key>
 		<string>303 Carroll Street</string>
 		<key>coodinateX</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>coodinateY</key>
-		<integer>0</integer>
+		<string>0</string>
 		<key>site</key>
 		<string></string>
 		<key>name</key>
