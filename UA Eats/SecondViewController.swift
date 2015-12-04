@@ -60,8 +60,29 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         //CODE TO BE RUN ON CELL TOUCH
-        let temp = indexPath.indexAtPosition(1)
-        print(data?[(data?.keys[(data?.startIndex.advancedBy(temp))!])!]?["address"])
+        let work = (data?.keys[(data?.startIndex.advancedBy(indexPath.indexAtPosition(1)))!])!
+        print(data?[work]?["address"])
+        let name = data?[work]?["name"]
+        let hours = data?[work]?["hours"]
+        let address = data?[work]?["address"]
+        let description = data?[work]?["description"]
+        
+        
+        // create the alert
+        let alert = UIAlertController(title: "\(name!)", message:
+            "Hours:\n\(hours!)\n\nPhone:\n\nAddress:\n\(address!)\n\nDescrpition:\n\(description!)",
+            preferredStyle: UIAlertControllerStyle.Alert)
+        
+        // add the actions (buttons)
+        let settingsAction = UIAlertAction(title: "To Website", style: .Default) { (_) -> Void in
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.google.com")!)
+        }
+        alert.addAction(settingsAction)
+        
+        alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
+        
+        // show the alert
+        self.presentViewController(alert, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
