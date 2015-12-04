@@ -15,9 +15,25 @@
 		<key>name</key>
 		<string>Rob&apos;s Dining Hall</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday,
+Breakfast 7 a.m. to 10:45 a.m.
+Lunch 11:00 a.m. to 3:45 p.m.
+Dinner 4 p.m. to 9 p.m.
+Late Night 10 p.m. to 1 a.m.
+
+Friday,
+Breakfast 7 a.m. to 10:45 a.m.
+Lunch 11:00 a.m. to 3:45 p.m.
+Dinner 4 p.m. to 9 p.m.
+
+Saturday,
+Daytime 9 a.m. to 7 p.m.
+
+Sunday,
+Daytime 9 a.m. to 9 p.m.
+Late Night 10 p.m. to 1 a.m.</string>
 		<key>description</key>
-		<string></string>
+		<string>An all you can eat style buffet featureing homesyle cooking, stir fry, fresh pizza, a sandwich/wrap station, salad bar, burgers, and more. One swipe per meal period for entry.</string>
 	</dict>
 	<key>unionMarket</key>
 	<dict>
@@ -32,7 +48,10 @@
 		<key>name</key>
 		<string>Union Market</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 8 a.m. to 6:30 p.m.
+Friday, 8 a.m. to 4:30 p.m.
+Saturday, 11 a.m. to 2 p.m.
+Sunday, closed</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -49,7 +68,9 @@
 		<key>name</key>
 		<string>Trackside Grill</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Friday, 11 a.m. to 9 p.m.
+Saturday, noon to 4 p.m.
+Sunday, 3 p.m. to 8 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -66,7 +87,10 @@
 		<key>name</key>
 		<string>Zee&apos;s (Rob&apos;s)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 7 a.m. to 11 p.m.
+Friday, 7 a.m. to 9 p.m.
+Saturday, 11 a.m. to 9 p.m.
+Sunday, 11 a.m. to 10 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -83,7 +107,10 @@
 		<key>name</key>
 		<string>Zee&apos;s (Exchange)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 8 a.m. to 11 p.m. 
+Friday, 8 a.m. to 9 p.m.
+Saturday, 10 a.m. to 9 p.m.
+Sunday, 10 a.m. to 11 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -100,7 +127,10 @@
 		<key>name</key>
 		<string>Zee&apos;s (Quaker)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday through Thursday, 8 a.m. to 10 p.m.
+Friday, 8 a.m. to 9 p.m.
+Saturday noon to 9 p.m.
+Sunday, noon to 10 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -117,7 +147,8 @@
 		<key>name</key>
 		<string>Freshens</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 8 a.m. to 9 p.m.
+Sunday, noon to 9 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>

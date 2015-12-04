@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--Swipes-->
@@ -16,18 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Swipes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gX-E8-wbM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gX-E8-wbM">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
-                                <color key="backgroundColor" red="0.3955432599" green="0.74026091699999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <rect key="contentStretch" x="0.0" y="0.20000000000000001" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="Faq-ra-8yb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uv8-Qa-YKm">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uv8-Qa-YKm">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
@@ -36,8 +37,10 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="uv8-Qa-YKm" secondAttribute="bottom" constant="49" id="1Tw-qf-OEc"/>
                             <constraint firstItem="0gX-E8-wbM" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="Avz-lL-GSO"/>
-                            <constraint firstItem="uv8-Qa-YKm" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="65" id="DH8-ee-gfv"/>
+                            <constraint firstItem="uv8-Qa-YKm" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="64" id="DH8-ee-gfv"/>
+                            <constraint firstItem="0gX-E8-wbM" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="OMi-Mr-0Mu"/>
                             <constraint firstItem="0gX-E8-wbM" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="V0Q-RI-91F"/>
+                            <constraint firstAttribute="trailing" secondItem="uv8-Qa-YKm" secondAttribute="trailing" id="cAP-eh-gVC"/>
                             <constraint firstItem="uv8-Qa-YKm" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="ouI-xY-nru"/>
                         </constraints>
                     </view>
@@ -101,29 +104,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dining Dollars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzG-CM-NMM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dining Dollars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzG-CM-NMM">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
-                                <color key="backgroundColor" red="0.3955432599" green="0.74026091699999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <rect key="contentStretch" x="0.0" y="0.20000000000000001" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="wie-c3-Pkd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tdq-h4-i4Q">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tdq-h4-i4Q">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Tdq-h4-i4Q" firstAttribute="top" secondItem="n3g-6e-kpH" secondAttribute="top" constant="65" id="13H-b3-VFw"/>
+                            <constraint firstItem="Tdq-h4-i4Q" firstAttribute="top" secondItem="n3g-6e-kpH" secondAttribute="top" constant="64" id="13H-b3-VFw"/>
                             <constraint firstAttribute="bottom" secondItem="Tdq-h4-i4Q" secondAttribute="bottom" constant="49" id="A6A-Jw-kjW"/>
                             <constraint firstItem="JzG-CM-NMM" firstAttribute="top" secondItem="n3g-6e-kpH" secondAttribute="top" id="IDs-me-rbK"/>
                             <constraint firstItem="JzG-CM-NMM" firstAttribute="width" secondItem="n3g-6e-kpH" secondAttribute="width" id="bG3-7Y-LIg"/>
                             <constraint firstItem="Tdq-h4-i4Q" firstAttribute="leading" secondItem="n3g-6e-kpH" secondAttribute="leading" id="bId-zF-TYj"/>
+                            <constraint firstAttribute="trailing" secondItem="Tdq-h4-i4Q" secondAttribute="trailing" id="dHl-dj-CHB"/>
+                            <constraint firstItem="JzG-CM-NMM" firstAttribute="leading" secondItem="n3g-6e-kpH" secondAttribute="leading" id="vhk-pp-JQR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dining Dollars" image="dollar" id="ZUo-Ku-UzF"/>

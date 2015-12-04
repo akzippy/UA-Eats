@@ -15,7 +15,7 @@
 		<key>name</key>
 		<string>BurgerFi</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 11:00 am to 10:00 pm</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -32,7 +32,7 @@
 		<key>name</key>
 		<string>Burger King (Market St)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 6:00 a.m. to 12:00 a.m. Sunday, 7:00 a.m. to 12:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -49,7 +49,7 @@
 		<key>name</key>
 		<string>Burger King (Howe Ave)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 6:00 a.m. to 12:00 a.m. Sunday, 7:00 a.m. to 12:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -66,14 +66,14 @@
 		<key>name</key>
 		<string>Crave</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 11 a.m. to10 p.m. Friday, 11 a.m. to 11 p.m. Saturday, 5 p.m. to 11 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
 	<key>euroGyro</key>
 	<dict>
 		<key>address</key>
-		<string>444 E Market St</string>
+		<string>444 E Exchange St</string>
 		<key>coodinateX</key>
 		<string>0</string>
 		<key>coodinateY</key>
@@ -83,7 +83,9 @@
 		<key>name</key>
 		<string>Euro Gyro</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Wednesday, 10:30 a.m. to 3 a.m.
+Thursday thru Saturday, 10:30 a.m. to 3:30 a.m.
+Sunday, 10:30 a.m. to 2:30 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -100,7 +102,9 @@
 		<key>name</key>
 		<string>Pionino&apos;s Pizzeria</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 10:30 a.m. to 10:00 p.m.
+Friday thru Saturday, 10:30 a.m to 11:00 p.m.
+Sunday, 2:00 p.m. to 10:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -117,7 +121,7 @@
 		<key>name</key>
 		<string>Hanini Subs</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 10:00 a.m. to 11:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -134,7 +138,7 @@
 		<key>name</key>
 		<string>Insomnia Cookies</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Friday, 12:00 p.m. to 3:00 a.m. Saturday thru Sunday, 1:00 p.m. to 3:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>

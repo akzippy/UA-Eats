@@ -12,7 +12,6 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
     
     @IBOutlet weak var swipesTable: UITableView?
     var data: Dictionary<String, Dictionary<String, String>>?
-    var count = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +24,9 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
             }
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
             }()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "didRotate:", name: UIDeviceOrientationDidChangeNotification, object: nil)
     }
-    
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (data?.count)!
     }
@@ -35,13 +35,29 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         let cell = UITableViewCell()
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
+        let label2 = UILabel(frame: CGRect(x:0, y:20, width:screenSize.width, height:30))
+        label2.font = UIFont(name: label.font.fontName, size: 10)
+        label2.text = "Test"
         let index = data?.startIndex.advancedBy(indexPath.indexAtPosition(1))
         let str = data?[(data?.keys[index!])!]?["name"]
         
-        label.text = str //"Hello Man"
+        label.text = str
         label.textAlignment = .Center
-        //swipesTable?.separatorInset.right = 200
         cell.addSubview(label)
+        //cell.addSubview(label2)
+        if indexPath.indexAtPosition(1) % 2 == 0{
+            cell.backgroundColor = UIColor(
+                red:1.0,
+                green:1.0,
+                blue:0.0,
+                alpha:1.0)
+        }else{
+            cell.backgroundColor = UIColor(
+                red:1.0,
+                green:1.0,
+                blue:0.0,
+                alpha:0.25)
+        }
         return cell
     }
     
@@ -64,14 +80,25 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         
         // create the alert
         let alert = UIAlertController(title: "\(name!)", message:
-            "Hours:\n\(hours!)\n\nPhone:\n\nAddress:\n\(address!)\n\nDescrpition:\n\(description!)",
-            preferredStyle: UIAlertControllerStyle.Alert)
+            "\(address!)\n\n\(description!)",
+            preferredStyle: UIAlertControllerStyle.ActionSheet)
         
         // add the actions (buttons)
-        let settingsAction = UIAlertAction(title: "To Website", style: .Default) { (_) -> Void in
+        let openWebpage = UIAlertAction(title: "To Website", style: .Default) { (_) -> Void in
             UIApplication.sharedApplication().openURL(NSURL(string: "http://www.google.com")!)
         }
-        alert.addAction(settingsAction)
+        let hoursButton = UIAlertAction(title: "Hours", style: .Default, handler: { (action) -> Void in
+            let hours = UIAlertController(title: "\(name!)", message:
+                "Hours:\n\(hours!)", preferredStyle: UIAlertControllerStyle.ActionSheet)
+            //hours.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
+            let returnButton = UIAlertAction(title: "Return", style: .Default, handler: { (action) -> Void in
+                self.presentViewController(alert, animated: true, completion: nil)
+            })
+            hours.addAction(returnButton)
+            self.presentViewController(hours, animated: true, completion: nil)
+        })
+        alert.addAction(hoursButton)
+        alert.addAction(openWebpage)
         
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
         
@@ -84,6 +111,10 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         // Dispose of any resources that can be recreated.
     }
     
+    func didRotate(notification: NSNotification)
+    {
+        swipesTable!.reloadData()
+    }
+    
     
 }
-
