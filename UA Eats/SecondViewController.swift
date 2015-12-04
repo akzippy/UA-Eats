@@ -35,16 +35,10 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         let cell = UITableViewCell()
         let screenSize: CGRect = UIScreen.mainScreen().bounds
         let label = UILabel(frame: CGRect(x:0, y:0, width:screenSize.width, height:50))
-        let index = data?.startIndex.advancedBy(count)
+        let index = data?.startIndex.advancedBy(indexPath.indexAtPosition(1))
         let str = data?[(data?.keys[index!])!]?["name"]
         
         label.text = str //"Hello Man"
-        if count > (data?.count)! - 2{
-            count = 0
-        }
-        else{
-            count++
-        }
         label.textAlignment = .Center
         //swipesTable?.separatorInset.right = 200
         cell.addSubview(label)
