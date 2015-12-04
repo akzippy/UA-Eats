@@ -172,7 +172,7 @@ Sunday, 2:00 p.m. to 10:00 p.m.</string>
 		<key>name</key>
 		<string>Mr. Zubs</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 11:00 a.m. to 2:30 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -189,7 +189,9 @@ Sunday, 2:00 p.m. to 10:00 p.m.</string>
 		<key>name</key>
 		<string>Nuevo Modern Mexican</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Friday, 11:00 a.m. to 11:00 p.m.
+Saturday, 3:00 p.m. to 11:00 p.m.
+Sunday, Closed</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -206,7 +208,10 @@ Sunday, 2:00 p.m. to 10:00 p.m.</string>
 		<key>name</key>
 		<string>Nunzio&apos;s Pizzeria</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 4 p.m. to 3:30 a.m.
+(Deliveries until 3:15 a.m.)
+Sunday 2 p.m. to 1:30 a.m.
+(Deliveries until 1:15 a.m.)</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -223,7 +228,7 @@ Sunday, 2:00 p.m. to 10:00 p.m.</string>
 		<key>name</key>
 		<string>Papa John&apos;s Pizza</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 10:30 a.m. to 12:40 a.m. (Deliveries until 1:00 a.m.) Friday thru Saturday, 10:30 a.m. to 1:40 a.m. (Deliveries until 2:00 a.m.) Sunday, 10:30 a.m. to 11:40 p.m. (Deliveries until 12:00 a.m.)</string>
 		<key>description</key>
 		<string></string>
 	</dict>

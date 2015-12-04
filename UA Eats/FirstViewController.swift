@@ -88,8 +88,8 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
             UIApplication.sharedApplication().openURL(NSURL(string: "http://www.google.com")!)
         }
         let hoursButton = UIAlertAction(title: "Hours", style: .Default, handler: { (action) -> Void in
-            let hours = UIAlertController(title: "\(name!)", message:
-                "Hours:\n\(hours!)", preferredStyle: UIAlertControllerStyle.ActionSheet)
+            let hours = UIAlertController(title: "\(name!) Hours", message:
+                "\(hours!)", preferredStyle: UIAlertControllerStyle.ActionSheet)
             //hours.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
             let returnButton = UIAlertAction(title: "Return", style: .Default, handler: { (action) -> Void in
                 self.presentViewController(alert, animated: true, completion: nil)
