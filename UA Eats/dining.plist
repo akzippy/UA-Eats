@@ -155,7 +155,7 @@ Sunday, 2:00 p.m. to 10:00 p.m.</string>
 		<key>name</key>
 		<string>Marco&apos;s Pizza</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 11:00 a.m. to 11:30 p.m. Friday thru Saturday, 11:00 a.m. to 12:30 a.m. Sunday, 11:00 a.m. tp 11:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -245,7 +245,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Penn Station (Howe Ave)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 11:00 a.m. to 10:00 p.m. Sunday, 12:00 p.m. to 9:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -262,7 +262,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Penn Station (Exchange St)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 11:00 a.m. to 10:00 p.m. Sunday, 11:00 a.m. to 8:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -279,7 +279,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Pita Pit</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Friday, 10:00 a.m. to 10:00 p.m. Saturday thru Sunday, 11:00 a.m to 10:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -296,7 +296,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Pizza Fire</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 11:00 a.m. to 11:00 p.m. Friday thru Saturday, 11: a.m to 2:00 a.m. Sunday, 12:00 p.m. to 9:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -313,7 +313,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Pizza Hut</string>
 		<key>hours</key>
-		<string></string>
+		<string>Sunday thru Thursday, 11:00 a.m. to 12:00 a.m. Friday thrue Saturday, 11:00 a.m. to 1:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -330,7 +330,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Subway (Main St)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Friday, 7:00 a.m. to 9:00 p.m. Saturday, 10:00 a.m. to 3:00 p.m. Sunday, closed</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -347,7 +347,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Subway (Union)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thirsday, 7:00 a.m. to 6:00 p.m. Friday, 7:00 a.m. to 4:00 p.m. Saturday thru Sunday, closed</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -364,7 +364,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Subway (Exchange St)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Friday, 7:00 a.m. to 4:00 a.m. Saturday thru Sunday, 8:00 a.m. to 4:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -381,7 +381,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>The Lockview</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Tuesday, 11:00 a.m. to 12:00 a.m. Wednesday thru Thursday, 11:00 a.m. to 1:00 a.m. Friday, 11:00 a.m. to 2:00 a.m. Saturday, 12:00 p.m. to 2:00 a.m. Sunday, 4:00 p.m. to 12:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -398,7 +398,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Aladin&apos;s Eatery</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 11:00 a.m. to 10:00 p.m. Sunday, 11:00 a.m. to 9:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -415,7 +415,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Barley House</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 11:00 a.m. to 9:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -432,7 +432,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Buffalo Wild Wings</string>
 		<key>hours</key>
-		<string></string>
+		<string>Sunday thru Thursday, 11:00 a.m. to 12:00 p.m. Friday thru Saturday, 11:00 a.m. to 1:00 a.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -449,7 +449,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Chipotle</string>
 		<key>hours</key>
-		<string></string>
+		<string>Wednesday thru Monday, 11:00 a.m. to 10:00 p.m. Tuesday, 12:00 p.m. to 10:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -466,7 +466,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Chipotle</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday 11:00 a.m. to 10:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -483,7 +483,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Chick-fil-A</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 6:30 a.m. to 10:00 p.m. Sunday, closed</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -500,7 +500,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Cilantro Thai</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Thursday, 11:00 am to 2:30 p.m. 5:00 p.m. to  to 9:30 p.m.  Friday, 11:00 a.m. to 2:30 p.m. 5:00 p.m. to 11:00 p.m.  Saturday, 4:30 p.m. to 11:00 p.m.  Sunday, 4:30 p.m. to 9:30 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -517,7 +517,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>CVS Pharmacy</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, open 24 hours</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -534,7 +534,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Dave&apos;s Markets</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Saturday, 7:00 a.m. to 10:00 p.m. Sunday, 7:00 a.m. to 8:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -551,7 +551,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Eat &apos;n Park</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, open 24 hours</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -568,7 +568,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Five Guys Burgers &amp; Fries (Howe Ave)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 11:00 a.m. to 10:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -585,7 +585,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Five Guys Burgers &amp; Fries (Medina Rd)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 11:00 a.m. to 10:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -602,7 +602,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Giant Eagle (Howe Ave)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday 6:00 a.m. to 12:00 a.m.  Bakery, Monday thru Sunday, 7:00 a.m. to 9:00 p.m.  Deli, Monday thru Sunday, 8:00 a.m. to 9:00 p.m.  Meat, Monday thru Thursday, 10:00 a.m. to 9:00 p.m. Friday thru Sunday, 9:00 a.m to 9:00 p.m.  Pharmacy, Sunday, 9:00 a.m. to 5:00 p.m. Monday thru Friday, 9:00 a.m. to 9:00 p.m. Saturday, 9:00 a.m. to 7:00 p.m.  Prepared Foods, Monday thru Sunday, 10:00 a.m. to 8:00 p.m.  Seafood, Monday thru Thursday, 10:00 a.m. to 9:00 p.m. Firday thru Sunday, 9:00 a.m. to 9:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
@@ -619,7 +619,7 @@ Sunday 2 p.m. to 1:30 a.m.
 		<key>name</key>
 		<string>Giant Eagle (Waterloo)</string>
 		<key>hours</key>
-		<string></string>
+		<string>Monday thru Sunday, 6:00 a.m. to 12:00 a.m.  Deli, Monday thru Sunday, 8:00 a.m. to 9:00 p.m.  Meat, Sunday thru Thursday, 10:00 a.m. to 8:00 p.m. Friday thru Saturday 9:00 a.m. to 9:00 p.m.  Pharmacy, Sunday, 9:00 a.m. to 6:00 p.m. Monday thru Friday, 9:00 a.m. to 9:00 p.m. Saturday, 9:00 a.m. to 7:00 p.m.  Prepared Foods, Monday thru Sunday, 10:00 a.m. to 8:00 p.m.</string>
 		<key>description</key>
 		<string></string>
 	</dict>
