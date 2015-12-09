@@ -56,7 +56,7 @@
         <!--Map-->
         <scene sceneID="jUX-Oe-6AK">
             <objects>
-                <viewController id="ZFb-1p-hw4" sceneMemberID="viewController">
+                <viewController id="ZFb-1p-hw4" customClass="ThirdViewController" customModule="UA_Eats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2iP-PD-9ET"/>
                         <viewControllerLayoutGuide type="bottom" id="7qi-rw-meg"/>
@@ -78,6 +78,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" selectedImage="map" id="Vtc-SA-Vya"/>
+                    <connections>
+                        <outlet property="mapView" destination="5io-8g-ghD" id="2Ih-Dm-5fs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRt-CR-Op2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
