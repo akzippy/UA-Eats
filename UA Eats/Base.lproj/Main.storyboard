@@ -64,7 +64,18 @@
                     <view key="view" contentMode="scaleToFill" id="crQ-Tb-ugX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5io-8g-ghD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="leading" secondItem="crQ-Tb-ugX" secondAttribute="leading" id="Hg5-tn-cu7"/>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="top" secondItem="crQ-Tb-ugX" secondAttribute="top" id="L2H-ck-ALU"/>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="bottom" secondItem="7qi-rw-meg" secondAttribute="top" id="nZZ-Qg-5dp"/>
+                            <constraint firstAttribute="trailing" secondItem="5io-8g-ghD" secondAttribute="trailing" id="w9B-ud-xdN"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" selectedImage="map" id="Vtc-SA-Vya"/>
                 </viewController>
