@@ -65,16 +65,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RH5-Ju-baF">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
+                                <color key="backgroundColor" red="0.043137254901960784" green="0.37647058823529411" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="V9J-xg-biI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5io-8g-ghD">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <rect key="frame" x="0.0" y="65" width="600" height="478"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5io-8g-ghD" firstAttribute="leading" secondItem="crQ-Tb-ugX" secondAttribute="leading" id="Hg5-tn-cu7"/>
-                            <constraint firstItem="5io-8g-ghD" firstAttribute="top" secondItem="crQ-Tb-ugX" secondAttribute="top" id="L2H-ck-ALU"/>
-                            <constraint firstItem="5io-8g-ghD" firstAttribute="bottom" secondItem="7qi-rw-meg" secondAttribute="top" id="nZZ-Qg-5dp"/>
-                            <constraint firstAttribute="trailing" secondItem="5io-8g-ghD" secondAttribute="trailing" id="w9B-ud-xdN"/>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="leading" secondItem="crQ-Tb-ugX" secondAttribute="leading" id="0ko-0k-1A6"/>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="leading" secondItem="RH5-Ju-baF" secondAttribute="leading" id="Tkv-eC-pzv"/>
+                            <constraint firstItem="7qi-rw-meg" firstAttribute="top" secondItem="5io-8g-ghD" secondAttribute="bottom" constant="8" symbolic="YES" id="TpQ-h2-vlD"/>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="trailing" secondItem="RH5-Ju-baF" secondAttribute="trailing" id="UvI-7k-K8j"/>
+                            <constraint firstItem="RH5-Ju-baF" firstAttribute="top" secondItem="crQ-Tb-ugX" secondAttribute="top" id="Vve-1f-MGv"/>
+                            <constraint firstItem="5io-8g-ghD" firstAttribute="top" secondItem="RH5-Ju-baF" secondAttribute="bottom" id="sJk-JL-fU6"/>
+                            <constraint firstAttribute="trailing" secondItem="5io-8g-ghD" secondAttribute="trailing" id="uPW-Yq-hYS"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" selectedImage="map" id="Vtc-SA-Vya"/>
@@ -84,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRt-CR-Op2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="180" y="1045"/>
+            <point key="canvasLocation" x="143" y="943"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
