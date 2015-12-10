@@ -15,6 +15,8 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
 
     @IBOutlet weak var mapView: MKMapView!
     
+    var data: Dictionary<String, Dictionary<String, String>>?
+    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -27,6 +29,15 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
         self.mapView.showsUserLocation = true
+    
+        data = {
+            guard let path = NSBundle.mainBundle().pathForResource("swipes", ofType: "plist") else {
+                fatalError("Invalid path for plist")
+            }
+            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
+        }()
+   
+    
     }
 
     override func didReceiveMemoryWarning() {
