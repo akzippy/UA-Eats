@@ -37,20 +37,16 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
         }()
         for (name,info) in data! {
-            print("Name: \(name)")
-            print(info["coodinateX"])
-            // for (key,value) in info {
-            //    print(key)
-            //    print(value["coordinateX"])
-            //}
+            //print("Name: \(name)")
+            //print(info["coodinateX"])
+            //let location = Locations(title: "Subway",
+            //    address: info["address"],
+            //    paytype: "Dining Dollars",
+            //    coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
+            
+            //mapView.addAnnotation(location)
         }
         
-        let restaurant = Locations(title: "Subway",
-            address: "Student Union",
-            paytype: "Dining Dollars",
-            coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
-        
-        mapView.addAnnotation(restaurant)
     }
 
     override func didReceiveMemoryWarning() {

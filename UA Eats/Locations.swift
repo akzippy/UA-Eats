@@ -25,6 +25,6 @@ class Locations: NSObject, MKAnnotation {
     }
     
     var subtitle: String? {
-        return "Takes: " + paytype + "\n Address: " + address
+        return "Takes: " + paytype + " Address: " + address
     }
 }
