@@ -49,7 +49,12 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
     
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError)
     {
-        print("Errors: " + error.localizedDescription)
+        print("Did not allow... Errors: " + error.localizedDescription)
+        let center = CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115)
+        
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        
+        self.mapView.setRegion(region, animated: true)
     }
 
 }
