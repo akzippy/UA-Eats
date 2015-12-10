@@ -37,7 +37,7 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
         }()
         for (name,info) in data! {
-            //print("Name: \(name)")
+            print("Name: \(name)")
             //print(info["coodinateX"])
             //let location = Locations(title: "Subway",
             //    address: info["address"],
@@ -45,7 +45,36 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             //    coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
             
             //mapView.addAnnotation(location)
+            let location = Locations(title: info["name"]!,
+                address: info["address"]!,
+                paytype: "Swipes & Dining Dollars",
+                coordinate: CLLocationCoordinate2D(latitude: Double(info["coodinateX"]!)!, longitude: Double(info["coodinateY"]!)!))
+                mapView.addAnnotation(location)
         }
+
+        data = {
+            guard let path = NSBundle.mainBundle().pathForResource("dining", ofType: "plist") else {
+                fatalError("Invalid path for plist")
+            }
+            return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
+            }()
+        for (name,info) in data! {
+            print("Name: \(name)")
+            //print(info["coodinateX"])
+            //let location = Locations(title: "Subway",
+            //    address: info["address"],
+            //    paytype: "Dining Dollars",
+            //    coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
+            
+            //mapView.addAnnotation(location)
+            let location = Locations(title: info["name"]!,
+                address: info["address"]!,
+                paytype: "Dining Dollars",
+                coordinate: CLLocationCoordinate2D(latitude: Double(info["coodinateX"]!)!, longitude: Double(info["coodinateY"]!)!))
+            mapView.addAnnotation(location)
+        }
+
+        
         
     }
 
@@ -93,6 +122,7 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
                     view.calloutOffset = CGPoint(x: -5, y: 5)
                     view.rightCalloutAccessoryView = UIButton() as UIView
                 }
+                view.pinTintColor = annotation.pinColor()
                 return view
             }
             return nil

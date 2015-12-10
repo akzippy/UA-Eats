@@ -83,7 +83,7 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         // create the alert
         let alert = UIAlertController(title: "\(name!)", message:
             "\(address!)\n\(phone!)\n\n\(description!)",
-            preferredStyle: UIAlertControllerStyle.ActionSheet)
+            preferredStyle: UIAlertControllerStyle.Alert)
         
         // add the actions (buttons)
         let openWebpage = UIAlertAction(title: "To Website", style: .Default) { (_) -> Void in
@@ -91,7 +91,7 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         }
         let hoursButton = UIAlertAction(title: "Hours", style: .Default, handler: { (action) -> Void in
             let hours = UIAlertController(title: "\(name!) Hours", message:
-                "\(hours!)", preferredStyle: UIAlertControllerStyle.ActionSheet)
+                "\(hours!)", preferredStyle: UIAlertControllerStyle.Alert)
             hours.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
             let returnButton = UIAlertAction(title: "Return", style: .Default, handler: { (action) -> Void in
                 self.presentViewController(alert, animated: true, completion: nil)
