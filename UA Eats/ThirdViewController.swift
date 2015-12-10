@@ -44,6 +44,13 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             //    print(value["coordinateX"])
             //}
         }
+        
+        let restaurant = Locations(title: "Subway",
+            address: "Student Union",
+            paytype: "Dining Dollars",
+            coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
+        
+        mapView.addAnnotation(restaurant)
     }
 
     override func didReceiveMemoryWarning() {
@@ -73,5 +80,26 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         
         self.mapView.setRegion(region, animated: true)
     }
-
+    
+    
+        func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+            if let annotation = annotation as? Locations {
+                let identifier = "pin"
+                var view: MKPinAnnotationView
+                if let dequeuedView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
+                    as? MKPinAnnotationView { // 2
+                        dequeuedView.annotation = annotation
+                        view = dequeuedView
+                } else {
+                    // 3
+                    view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+                    view.canShowCallout = true
+                    view.calloutOffset = CGPoint(x: -5, y: 5)
+                    view.rightCalloutAccessoryView = UIButton() as UIView
+                }
+                return view
+            }
+            return nil
+        }
+    
 }
