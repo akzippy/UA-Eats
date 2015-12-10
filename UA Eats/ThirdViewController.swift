@@ -36,8 +36,14 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             }
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, Dictionary <String, String>>
         }()
-   
-    
+        for (name,info) in data! {
+            print("Name: \(name)")
+            print(info["coodinateX"])
+            // for (key,value) in info {
+            //    print(key)
+            //    print(value["coordinateX"])
+            //}
+        }
     }
 
     override func didReceiveMemoryWarning() {
