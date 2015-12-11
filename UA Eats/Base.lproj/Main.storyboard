@@ -76,14 +76,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5io-8g-ghD">
-                                <rect key="frame" x="0.0" y="65" width="600" height="478"/>
+                                <rect key="frame" x="0.0" y="65" width="600" height="486"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="5io-8g-ghD" firstAttribute="leading" secondItem="crQ-Tb-ugX" secondAttribute="leading" id="0ko-0k-1A6"/>
+                            <constraint firstItem="7qi-rw-meg" firstAttribute="top" secondItem="5io-8g-ghD" secondAttribute="bottom" id="8qU-R1-X7t"/>
                             <constraint firstItem="5io-8g-ghD" firstAttribute="leading" secondItem="RH5-Ju-baF" secondAttribute="leading" id="Tkv-eC-pzv"/>
-                            <constraint firstItem="7qi-rw-meg" firstAttribute="top" secondItem="5io-8g-ghD" secondAttribute="bottom" constant="8" symbolic="YES" id="TpQ-h2-vlD"/>
                             <constraint firstItem="5io-8g-ghD" firstAttribute="trailing" secondItem="RH5-Ju-baF" secondAttribute="trailing" id="UvI-7k-K8j"/>
                             <constraint firstItem="RH5-Ju-baF" firstAttribute="top" secondItem="crQ-Tb-ugX" secondAttribute="top" id="Vve-1f-MGv"/>
                             <constraint firstItem="5io-8g-ghD" firstAttribute="top" secondItem="RH5-Ju-baF" secondAttribute="bottom" id="sJk-JL-fU6"/>

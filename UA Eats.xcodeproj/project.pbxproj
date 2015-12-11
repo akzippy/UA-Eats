@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		127E8BC11C191E6200C0FA4B /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127E8BC01C191E6200C0FA4B /* Locations.swift */; };
-		12DAF50E1C19F83A00E400CA /* VCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DAF50D1C19F83A00E400CA /* VCViewController.swift */; };
 		326F647E1C04E7EE00D43806 /* dining.plist in Resources */ = {isa = PBXBuildFile; fileRef = 326F647D1C04E7EE00D43806 /* dining.plist */; };
 		32E564B11BEBDFC2002D9495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E564B01BEBDFC2002D9495 /* AppDelegate.swift */; };
 		32E564B31BEBDFC2002D9495 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E564B21BEBDFC2002D9495 /* FirstViewController.swift */; };
@@ -40,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		127E8BC01C191E6200C0FA4B /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
-		12DAF50D1C19F83A00E400CA /* VCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCViewController.swift; sourceTree = "<group>"; };
 		326F647D1C04E7EE00D43806 /* dining.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dining.plist; sourceTree = "<group>"; };
 		32E564B01BEBDFC2002D9495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E564B21BEBDFC2002D9495 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
@@ -105,7 +103,6 @@
 				32E564E21BEBE25E002D9495 /* ThirdViewController.swift */,
 				127E8BC01C191E6200C0FA4B /* Locations.swift */,
 				32E564B61BEBDFC2002D9495 /* Main.storyboard */,
-				12DAF50D1C19F83A00E400CA /* VCViewController.swift */,
 				32E564B91BEBDFC2002D9495 /* Assets.xcassets */,
 				32E564BE1BEBDFC2002D9495 /* Info.plist */,
 				32E564E41BEBE59F002D9495 /* swipes.plist */,
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32E564B51BEBDFC2002D9495 /* SecondViewController.swift in Sources */,
-				12DAF50E1C19F83A00E400CA /* VCViewController.swift in Sources */,
 				32E564B11BEBDFC2002D9495 /* AppDelegate.swift in Sources */,
 				32E564E31BEBE25E002D9495 /* ThirdViewController.swift in Sources */,
 				127E8BC11C191E6200C0FA4B /* Locations.swift in Sources */,
