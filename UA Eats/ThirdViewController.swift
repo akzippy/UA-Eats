@@ -23,7 +23,7 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-       
+        self.mapView.tintColor = UIColor.blueColor()
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
@@ -38,20 +38,13 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         }()
         for (name,info) in data! {
             print("Name: \(name)")
-            //print(info["coodinateX"])
-            //let location = Locations(title: "Subway",
-            //    address: info["address"],
-            //    paytype: "Dining Dollars",
-            //    coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
-            
-            //mapView.addAnnotation(location)
             let location = Locations(title: info["name"]!,
                 address: info["address"]!,
-                paytype: "Swipes & Dining Dollars",
+                paytype: "Swipes",
                 coordinate: CLLocationCoordinate2D(latitude: Double(info["coodinateX"]!)!, longitude: Double(info["coodinateY"]!)!))
                 mapView.addAnnotation(location)
         }
-        print("Dining Dollars")
+        print("Dining $$$")
         data = {
             guard let path = NSBundle.mainBundle().pathForResource("dining", ofType: "plist") else {
                 fatalError("Invalid path for plist")
@@ -60,16 +53,9 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             }()
         for (name,info) in data! {
             print("Name: \(name)")
-            //print(info["coodinateX"])
-            //let location = Locations(title: "Subway",
-            //    address: info["address"],
-            //    paytype: "Dining Dollars",
-            //    coordinate: CLLocationCoordinate2D(latitude: 41.0752, longitude: -81.5115))
-            
-            //mapView.addAnnotation(location)
             let location = Locations(title: info["name"]!,
                 address: info["address"]!,
-                paytype: "Dining Dollars",
+                paytype: "Dining $$$",
                 coordinate: CLLocationCoordinate2D(latitude: Double(info["coodinateX"]!)!, longitude: Double(info["coodinateY"]!)!))
             print("AddAnnotation")
             mapView.addAnnotation(location)
@@ -106,26 +92,4 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         
         self.mapView.setRegion(region, animated: true)
     }
-//    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-//         print("Test")
-//         if let annotation = annotation as? Locations {
-//            print("Test")
-//            let identifier = "pin"
-//            var view: MKPinAnnotationView
-//            if let dequeuedView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
-//                as? MKPinAnnotationView { // 2
-//                    dequeuedView.annotation = annotation
-//                    view = dequeuedView
-//            } else {
-//                // 3
-//               view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-//                view.canShowCallout = true
-//                view.calloutOffset = CGPoint(x: -5, y: 5)
-//                view.rightCalloutAccessoryView = UIButton() as UIView
-//            }
-//            view.pinTintColor = annotation.pinColor()
-//            return view
-//        }
-//        return nil
-//    }
 }
