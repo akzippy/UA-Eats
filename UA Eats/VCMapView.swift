@@ -13,7 +13,7 @@ extension ThirdViewController: MKMapViewDelegate {
     
     // 1
     func mapView(mapView: MKMapView,
-        viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView! {
+        viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
             print("mapView")
             if let annotation = annotation as? Locations {
                 let identifier = "pin"
@@ -27,7 +27,7 @@ extension ThirdViewController: MKMapViewDelegate {
                     view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
                     view.canShowCallout = true
                     view.calloutOffset = CGPoint(x: -5, y: 5)
-                    view.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure) as UIView
+                    //view.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure) as UIView
                 }
                 
                 view.pinTintColor = annotation.pinColor()
@@ -38,9 +38,9 @@ extension ThirdViewController: MKMapViewDelegate {
     }
     
     //func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-    //  let location = view.annotation as! Artwork
+    //  let location = view.annotation as! Locations
     //  let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
     //  location.mapItem().openInMapsWithLaunchOptions(launchOptions)
-    // }
+    //}
     
 }
