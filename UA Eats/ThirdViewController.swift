@@ -10,8 +10,9 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
-    
+// class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class ThirdViewController: UIViewController, CLLocationManagerDelegate {
+
 
     @IBOutlet weak var mapView: MKMapView!
     
@@ -22,8 +23,9 @@ class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManage
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mapView.delegate = self
+        
         // Do any additional setup after loading the view.
-        self.mapView.tintColor = UIColor.blueColor()
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()

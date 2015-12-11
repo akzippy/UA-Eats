@@ -27,4 +27,16 @@ class Locations: NSObject, MKAnnotation {
     var subtitle: String? {
         return "Takes: " + paytype + ", Address: " + address
     }
+    func pinColor() -> UIColor  {
+        print("PinColor")
+        switch paytype {
+        case "Dining $$$":
+            return UIColor.redColor()
+        case "Swipes":
+            return UIColor.grayColor()
+        default:
+            return UIColor.greenColor()
+        }
+    }
+
 }
