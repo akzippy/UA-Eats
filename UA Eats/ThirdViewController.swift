@@ -61,6 +61,7 @@ class ThirdViewController: UIViewController, CLLocationManagerDelegate {
                 coordinate: CLLocationCoordinate2D(latitude: Double(info["coodinateX"]!)!, longitude: Double(info["coodinateY"]!)!))
             print("AddAnnotation")
             mapView.addAnnotation(location)
+            mapView.tintColor = UIColor.redColor()
         }
 
         

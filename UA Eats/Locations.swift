@@ -31,9 +31,9 @@ class Locations: NSObject, MKAnnotation {
         print("PinColor")
         switch paytype {
         case "Dining $$$":
-            return UIColor.redColor()
+            return UIColor.blueColor()
         case "Swipes":
-            return UIColor.grayColor()
+            return UIColor.yellowColor()
         default:
             return UIColor.greenColor()
         }

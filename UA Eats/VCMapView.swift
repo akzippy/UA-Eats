@@ -2,7 +2,7 @@
 //  VCMapView.swift
 //  UA Eats
 //
-//  Created by Klenotic,Andrew on 12/10/15.
+//  Created by Klenotic, Andrew on 12/10/15.
 //  Copyright © 2015 Cameron Reilly. All rights reserved.
 //
 
