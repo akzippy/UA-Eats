@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Swipes-->
@@ -162,11 +163,58 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="swipesTable" destination="Tdq-h4-i4Q" id="bTM-8I-zSO"/>
+                        <segue destination="zGv-Id-S93" kind="show" identifier="toMapDetail" id="HWI-Yr-0ZQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1A9-GS-sZO" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="782" y="396"/>
+        </scene>
+        <!--Map Detail View Controller-->
+        <scene sceneID="ltr-of-9cR">
+            <objects>
+                <viewController id="zGv-Id-S93" customClass="MapDetailViewController" customModule="UA_Eats" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5gU-hX-k9U"/>
+                        <viewControllerLayoutGuide type="bottom" id="3CX-er-VDD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aQ9-gd-IUO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xX-GM-Fdb">
+                                <rect key="frame" x="0.0" y="-1" width="600" height="65"/>
+                                <color key="backgroundColor" red="0.043137254899999998" green="0.37647058820000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="NVK-RF-BDa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gNx-B6-cya">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gNx-B6-cya" firstAttribute="leading" secondItem="3xX-GM-Fdb" secondAttribute="leading" id="H7g-Pq-c6j"/>
+                            <constraint firstItem="gNx-B6-cya" firstAttribute="leading" secondItem="aQ9-gd-IUO" secondAttribute="leading" id="R8z-zJ-tr1"/>
+                            <constraint firstItem="gNx-B6-cya" firstAttribute="trailing" secondItem="3xX-GM-Fdb" secondAttribute="trailing" id="UKy-cL-ZkH"/>
+                            <constraint firstAttribute="trailing" secondItem="gNx-B6-cya" secondAttribute="trailing" id="UT3-Qs-guf"/>
+                            <constraint firstItem="gNx-B6-cya" firstAttribute="bottom" secondItem="3CX-er-VDD" secondAttribute="top" id="cJL-14-Y4D"/>
+                            <constraint firstItem="3xX-GM-Fdb" firstAttribute="top" secondItem="aQ9-gd-IUO" secondAttribute="topMargin" constant="-1" id="mCq-n5-725"/>
+                            <constraint firstItem="gNx-B6-cya" firstAttribute="top" secondItem="3xX-GM-Fdb" secondAttribute="bottom" id="oxN-Sx-cU5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapDetailView" destination="gNx-B6-cya" id="fDi-jp-MGO"/>
+                        <outlet property="mapView" destination="gNx-B6-cya" id="doE-Al-oL1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ce-Ii-Fkt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1127" y="1133"/>
         </scene>
     </scenes>
     <resources>
