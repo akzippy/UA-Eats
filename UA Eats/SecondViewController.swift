@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 
-class SecondViewController: UIViewController, UITableViewDataSource , UITableViewDelegate{
+class SecondViewController: UIViewController, UITableViewDataSource , UITableViewDelegate {
     
     @IBOutlet weak var swipesTable: UITableView?
     var data: Dictionary<String, Dictionary<String, String>>?
@@ -101,13 +101,13 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
             self.presentViewController(hours, animated: true, completion: nil)
         })
         
-        //Here
-        
-        alert.addAction(UIAlertAction(title:"OK", style: .Default, handler:  { action in self.performSegueWithIdentifier("toMap", sender: self) }))
-        
-        //Here
         alert.addAction(hoursButton)
         alert.addAction(openWebpage)
+        //Here
+        
+        alert.addAction(UIAlertAction(title:"Map It!", style: .Default, handler:  { action in self.performSegueWithIdentifier("toMap", sender: self) }))
+        
+        //Here
         
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
         

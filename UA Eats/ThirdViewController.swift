@@ -12,6 +12,7 @@ import CoreLocation
 
 // class ThirdViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 class ThirdViewController: UIViewController, CLLocationManagerDelegate {
+//    class ThirdViewController: UIViewController, CLLocationManagerDelegate {
 
 
     @IBOutlet weak var mapView: MKMapView!
