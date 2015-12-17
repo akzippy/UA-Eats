@@ -47,6 +47,7 @@
                     <tabBarItem key="tabBarItem" title="Swipes" image="card" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="swipesTable" destination="uv8-Qa-YKm" id="VPJ-dY-v49"/>
+                        <segue destination="ZFb-1p-hw4" kind="show" identifier="toMap" id="MPE-Tc-55B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -176,6 +177,6 @@
         <image name="map" width="89" height="89"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8bc-VY-dxh"/>
+        <segue reference="MPE-Tc-55B"/>
     </inferredMetricsTieBreakers>
 </document>

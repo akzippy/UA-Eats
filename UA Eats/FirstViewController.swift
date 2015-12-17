@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreLocation
 
 class FirstViewController: UIViewController, UITableViewDataSource , UITableViewDelegate{
     
     @IBOutlet weak var swipesTable: UITableView?
     var data: Dictionary<String, Dictionary<String, String>>?
-    
+    var work: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -70,7 +71,7 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         //CODE TO BE RUN ON CELL TOUCH
-        let work = (data?.keys[(data?.startIndex.advancedBy(indexPath.indexAtPosition(1)))!])!
+        work = (data?.keys[(data?.startIndex.advancedBy(indexPath.indexAtPosition(1)))!])!
         print(data?[work]?["address"])
         let name = data?[work]?["name"]
         let phone = data?[work]?["phone"]
@@ -101,6 +102,11 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
         })
         alert.addAction(hoursButton)
         alert.addAction(openWebpage)
+        //Here
+        
+        alert.addAction(UIAlertAction(title:"Map It!", style: .Default, handler:  { action in self.performSegueWithIdentifier("toMap", sender: self) }))
+        
+        //Here
         
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Cancel, handler: nil))
         
@@ -116,6 +122,24 @@ class FirstViewController: UIViewController, UITableViewDataSource , UITableView
     func didRotate(notification: NSNotification)
     {
         swipesTable!.reloadData()
+    }
+    // Here
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        print(data?[work]?["address"])
+        let location = Locations(title: (data?[work]?["name"])!,
+            address: (data?[work]?["address"])!,
+            paytype: "Swipes",
+            coordinate: CLLocationCoordinate2D(latitude: Double((data?[work]?["coodinateX"])!)!, longitude: Double((data?[work]?["coodinateY"])!)!))
+        if let btvc = segue.destinationViewController as? ThirdViewController {
+            if let identifer = segue.identifier {
+                if identifer == "toMap" {
+                    btvc.destination = location
+                }
+            }
+        }
+        else {
+            print("we have a segue problem")
+        }
     }
     
     
