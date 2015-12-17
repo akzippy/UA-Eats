@@ -173,7 +173,7 @@
         <!--Map Detail View Controller-->
         <scene sceneID="ltr-of-9cR">
             <objects>
-                <viewController id="zGv-Id-S93" customClass="MapDetailViewController" customModule="UA_Eats" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapDetailView" id="zGv-Id-S93" customClass="MapDetailViewController" customModule="UA_Eats" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5gU-hX-k9U"/>
                         <viewControllerLayoutGuide type="bottom" id="3CX-er-VDD"/>
@@ -192,7 +192,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gNx-B6-cya">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gNx-B6-cya">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                             </mapView>
                         </subviews>
